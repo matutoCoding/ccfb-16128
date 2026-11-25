@@ -1,0 +1,20 @@
+{
+  "name": "lane-oil-sim",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "球道油型与油面消耗推演系统 (WebGL2 + TypeScript + IndexedDB)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "tsx tests/run-tests.ts",
+    "bench": "tsx tests/bench-cpu.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "vite": "7.3.8"
+  }
+}
